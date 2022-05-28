@@ -1,0 +1,29 @@
+.criteria_box {
+  border-radius: 10px;
+  border: 1px solid #9b97b6;
+  background-color: #ece9ff;
+  padding: 30px 30px;
+  width: 600px;
+  height: 450px;
+  overflow: scroll;
+  overflow-x: hidden;
+  margin-left: 110px;
+}
+/* Scrollbar styles */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-track {
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #84809f;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #0f0934;
+}

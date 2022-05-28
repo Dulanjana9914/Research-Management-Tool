@@ -1,0 +1,145 @@
+.body_container {
+  display: grid;
+  height: 100vh;
+  grid-template-columns: 50% auto;
+}
+
+.left_container {
+  background-color: #0f0934;
+  color: #ffffff;
+  padding: 70px 150px;
+}
+
+.right_container {
+  background-color: #ffffff;
+  color: black;
+  padding: 100px 60px;
+}
+
+.criteria_row {
+  align-items: center;
+  justify-content: center;
+}
+
+.btn_submit {
+  background-color: #0f0934 !important;
+  color: #ffffff;
+  width: 150px;
+
+  margin-left: 75%;
+}
+
+.criteria_box {
+  border-radius: 10px;
+  border: 1px solid #9b97b6;
+  background-color: #ece9ff;
+  padding: 30px 30px;
+  width: 800px;
+  height: 450px;
+  overflow: scroll;
+  overflow-x: hidden;
+}
+/* Scrollbar styles */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-track {
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #84809f;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #0f0934;
+}
+
+/*** Hide Arrows From Input Number ***/
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+/****************************       AllDocuments styles        ****************************/
+
+.allDoc_body_container {
+  display: grid;
+  height: 100vh;
+  grid-template-columns: 20% auto;
+}
+
+.allDoc_right_container {
+  background-color: #ffffff;
+  color: black;
+  padding: 60px 60px;
+}
+
+.allDoc_button {
+  font-weight: bold;
+  cursor: pointer;
+  color: white !important;
+  outline: none;
+  border: none;
+  background-color: #0f0934;
+}
+
+.allDoc_button:hover {
+  color: #000 !important;
+  background-color: #00d8be !important;
+  transition: all 0.7s;
+}
+
+.allDoc_fadeBottom {
+  height: 7.4rem;
+  background-image: linear-gradient(
+    180deg,
+    transparent,
+    rgba(37, 37, 37, 0.61),
+    #111
+  );
+}
+
+.t-list-head-container {
+  margin-top: 20px;
+  margin-left: 10%;
+}
+
+.h-text {
+  color: #0f0934;
+  font-size: 3rem;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.text_space {
+  display: block;
+  margin-bottom: -1.1em;
+}
+
+.allDoc_box {
+  border-radius: 10px;
+  border: 1px solid #9b97b6;
+  background-color: #ece9ff;
+  margin-top: 20px;
+  padding: 30px 30px;
+  width: 1000px;
+  height: 450px;
+  overflow: scroll;
+  overflow-x: hidden;
+}
+
+tr {
+  height: 75px;
+}
